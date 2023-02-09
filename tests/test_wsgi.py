@@ -1,6 +1,6 @@
 # tests/test_wsgi.py
 from flask_testing import TestCase
-from wsgi import app
+from application import app
 
 class TestViews(TestCase):
     def create_app(self):
