@@ -4,10 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+awsebcli = "*"
 
 [dev-packages]
 flask-testing = "*"
 nose = "*"
 
 [requires]
-python_version = "3.10"
+python_version = "3.8"
